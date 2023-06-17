@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "OCG ",
+    "version": "1.0.0",
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "contextMenus",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "js": [
+                "script.js"
+            ],
+            "matches": [
+                "https://*/*",
+                "http://*/*"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup/index.html"
+    }
+}

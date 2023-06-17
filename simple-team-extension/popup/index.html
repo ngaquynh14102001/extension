@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Shopbase</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+    <!-- <h1 class="h1">HAVE A NICE DAY</h1> -->
+    <img src="https://cdn.shopify.com/s/files/1/0256/8945/6711/files/topheady.gif?height=628&pad_color=fff&v=1613707115&width=1200"
+        alt="img">
+    <div class="button-area">
+        <button id="btn-copy">Copy</button>
+        <button id="btn-paste">Paste</button>
+    </div>
+
+    <div class="checkbox-area">
+        <div>
+            <input id="ckb-all" type="checkbox" name="checkbox-all" onclick="onClick('all')" />
+            <label for="checkbox-all">All</label>
+        </div>
+        <div>
+            <input id="ckb-file" type="checkbox" name="checkbox-test-file" onclick="onClick('file')" />
+            <label for="checkbox-test-file">TEST_FILE_OR_FOLDER</label>
+            <div class="jenkin-info-detail" id="a"> </div>
+        </div>
+
+        <div>
+            <input id="ckb-shards" type="checkbox" name="checkbox-shards" onclick="onClick('shards')" />
+            <label for="checkbox-shards">SHARDS</label>
+            <div class="jenkin-info-detail" id="b"> </div>
+        </div>
+
+        <div>
+            <input id="ckb-suite-case-id" type="checkbox" name="checkbox-suite-or-case-id"
+                onclick="onClick('suite-case-id')" />
+            <label for="checkbox-suite-or-case-id">SUITE_ID_OR_CASE_ID</label>
+            <div class="jenkin-info-detail" id="c"> </div>
+        </div>
+
+        <div>
+            <input id="ckb-branch" type="checkbox" name="checkbox-branch" onclick="onClick('branch')" />
+            <label for="checkbox-branch">BRANCH</label>
+            <div class="jenkin-info-detail" id="d"> </div>
+        </div>
+
+        <div>
+            <input id="ckb-job-id" type="checkbox" name="checkbox-job-id" onclick="onClick('job-id')" />
+            <label for="checkbox-job-id">TH_JOB_ID</label>
+            <div class="jenkin-info-detail" id="e"> </div>
+        </div>
+
+        <div>
+            <input id="ckb-slack-id" type="checkbox" name="checkbox-slack-id" onclick="onClick('slack-id')" />
+            <label for="checkbox-slack-id">SLACK_ID</label>
+            <div class="jenkin-info-detail" id="f"> </div>
+        </div>
+
+        <div>
+            <input id="ckb-job-name" type="checkbox" name="checkbox-job-name" onclick="onClick('job-name')" />
+            <label for="checkbox-job-name">TH_JOB_NAME</label>
+            <div class="jenkin-info-detail" id="g"> </div>
+        </div>
+
+        <div>
+            <input id="ckb-job-run-mode" type="checkbox" name="checkbox-job-run-mode"
+                onclick="onClick('job-run-mode')" />
+            <label for="checkbox-job-run-mode">TH_JOB_RUN_MODE</label>
+            <div class="jenkin-info-detail" id="h"> </div>
+        </div>
+
+        <div>
+            <input id="ckb-job-created-by-mail" type="checkbox" name="checkbox-job-created-by-mail"
+                onclick="onClick('job-created-by-mail')" />
+            <label for="checkbox-job-created-by-mail">TH_JOB_CREATED_BY_EMAIL</label>
+            <div class="jenkin-info-detail" id="i"> </div>
+        </div>
+
+        <div>
+            <input id="ckb-proxy-url" type="checkbox" name="checkbox-proxy-url" onclick="onClick('proxy-url')" />
+            <label for="checkbox-proxy-url">PW_PROXY_URL</label>
+            <div class="jenkin-info-detail" id="k"> </div>
+        </div>
+    </div>
+    <script src="./script-popup.js"></script>
+</body>
+
+</html>

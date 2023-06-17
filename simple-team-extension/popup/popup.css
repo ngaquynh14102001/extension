@@ -1,0 +1,81 @@
+body {
+    width: 500px;
+}
+
+.h1 {
+    font-size: 20px;
+    background-color: #ebf7fd;
+    border-color: #cbeafa;
+    color: #0093ed;
+    background-color: #ebf7fd;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.checkbox-area {
+    background: #cfd9e5;
+    padding: 15px;
+    border-radius: 3px;
+    border: 2px solid #d1cfcf;
+    padding: 7px;
+}
+
+.button-area {
+    &>button {
+        padding: 4px;
+        background: #cfd9e5;
+        margin-bottom: 10px;
+        margin-top: -5px;
+        border: 2px solid #d1cfcf;
+        border-radius: 10px;
+
+        display: inline-block;
+        padding: 3px 9px;
+        vertical-align: middle;
+        overflow: hidden;
+        text-decoration: none;
+        color: inherit;
+        background-color: #fce6e6;
+        text-align: center;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    text-align: center;
+
+    &>button:hover {
+        background-color: #edc4c4;
+        color: white;
+    }
+
+    &>button:active {
+        background-color: #eb9999;
+        color: white;
+    }
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 53%;
+    height: 105px;
+}
+
+label {
+    font-size: 10px;
+}
+
+.jenkin-info-detail {
+    margin-top: 0.01px;
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+    font-size: 0.67rem;
+    margin-left: 1.5rem;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+    bottom: auto;
+}
